@@ -13,12 +13,13 @@ import sys
 import os
 
 driver = None
-
+# ends the program, main function called to close the program
 def end(driver = None):
     if driver is not None:
         driver.close()
     sys.exit()    
 
+# will open chrome and sent the selenium driver off to be used elsewhere
 def openChrome():
     #Opens chrome window
     options = webdriver.ChromeOptions()
@@ -39,6 +40,7 @@ def openChrome():
         print("Please Download Chrome and Run Again")
         end()
 
+# main function that will run and do the magic i guess
 def main():
     found = False
     # Checks to see if they user has an internet connection (final)
