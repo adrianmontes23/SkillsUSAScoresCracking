@@ -1,5 +1,5 @@
 from selenium import webdriver
-from selenium.common.exceptions import NoSuchWindowException
+from selenium.common.exceptions import NoSuchWindowException, NoSuchElementException
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.support.ui import Select
@@ -35,6 +35,9 @@ def openChrome():
         return driver 
     except NoSuchWindowException:
         print("Cancelled by user")
+        end(driver)
+    except NoSuchElementException:
+        print("Competition isn't availible yet")
         end(driver)
     except:
         print("Please Download Chrome and Run Again")
