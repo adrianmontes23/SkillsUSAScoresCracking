@@ -1,9 +1,8 @@
-# Version 3.2
+# Version 3.3
 ## Whats new
--- only shows the texas state competittion for 2023
--- more better everything since I learned.
-
+-- Acually works now
 ## Description:
+-- You can just download zip or executable directly
 This program only allows the distric  competition of 2023 but could be changed by me
 let me know I'll update where needed.
 This Program allows you to find someones score based off of their contestant number or date of birth.
@@ -21,4 +20,4 @@ It's not guaranteed To find every contestant as some people don't have birthdays
 This program consumes large ammounts of bandwidth and network usage.
 You need Admin rights to run the program
 
-Signed Adrian Montes(04/06/2023 - 2:22PM)
+Signed Adrian Montes(04/11/2023 - 2:53PM)

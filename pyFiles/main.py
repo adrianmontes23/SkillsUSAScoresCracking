@@ -71,7 +71,7 @@ def main():
         except:
             print("Cancelled by user")
             end()
-    elif select == "Contestant Number":
+    elif select == "Contestant Numbers":
         dateOfBirth = byContestant.askBirthday()
         if dateOfBirth is None: 
             print("Cancelled by user")
